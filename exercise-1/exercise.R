@@ -13,7 +13,7 @@ my_height <- 66
 puppies <- 2
 
 # Create a variable `puppy_price`, which is how much you think a puppy costs
-puppy_price <- 100 + 500 + 20
+puppy_price <- 100 + 50 + 20
 
 # Create a variable `total_cost` that has the total cost of all of your puppies
 total_cost <- puppy_price + puppies
@@ -26,4 +26,6 @@ print(too_expensive)
 
 # Create a variable `max_puppies`, which is the number of puppies you can 
 # afford for $1,000
+max_puppies <- floor(1000/puppy_price)
+print(max_puppies)
 
